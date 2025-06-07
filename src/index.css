@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-neonBlue: #00ffff;
+  --color-neonPurple: #a020f0;
+  --color-neonCyan: #00ffe0;
+  --color-darkBg: #0d0d0d;
+  --shadow-neon: 0 0 10px #00ffff, 0 0 20px #a020f0;
+  --text-mobile: 0.8rem;
+  --font-cyber: 'Psionic', 'Courier New', Courier, monospace;
+  --font-monshea: 'monshea';
+  --font-naston: 'Naston';
+}
+
+@font-face {
+  font-family: monshea;
+  src: url(./assets/font/monshea.otf);
+}
+
+@font-face {
+  font-family: Naston;
+  src: url(./assets/font/naston.ttf);
+}
+
+@font-face {
+  font-family: Psionic;
+  src: url(assets/font/psionic.otf);
+}
+
+body {
+  background: #0d0d0d;
+  font-family: 'Naston', 'monshea','Courier New', Courier, monospace;
+}
